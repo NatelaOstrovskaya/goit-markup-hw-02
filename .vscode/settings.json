@@ -1,5 +1,23 @@
 {
-    "prettier.trailingComma": "all",
     "editor.defaultFormatter": "esbenp.prettier-vscode",
-    "liveServer.settings.useLocalIp": true
+    "liveServer.settings.useLocalIp": true,
+    "workbench.preferredDarkColorTheme": "Default High Contrast",
+    "workbench.preferredLightColorTheme": "Default Dark+",
+    "editor.formatOnSave": true,
+    "editor.bracketPairColorization.enabled": true,
+    "editor.codeLens": false,
+    "editor.columnSelection": true,
+    "gitlens.codeLens.recentChange.enabled": false,
+    "prettier.useTabs": true,
+    "prettier.insertPragma": true,
+    "prettier.jsxBracketSameLine": true,
+    "prettier.jsxSingleQuote": true,
+    "prettier.requireConfig": true,
+    "prettier.requirePragma": true,
+    "prettier.resolveGlobalModules": true,
+    "prettier.vueIndentScriptAndStyle": true,
+    "prettier.withNodeModules": true,
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features"
+    }
 }

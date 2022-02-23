@@ -1,0 +1,198 @@
+:root {
+  --primary-text-color:#212121;
+  --title-texy-color:  #757575; 
+  --accent-color:  #2196F3;
+  --primary-white-color:#FFFFFF;
+  --background-secondary-color: #2F303A;
+  --background-color: #E5E5E5;
+  --background-comand-color:#F5F4FA;
+  
+}
+
+.body {
+    color: var(--primary-text-color);
+    background-color: var(primary-white-color);
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 0.03em;
+}
+
+/* logo */
+
+.logo {
+        text-decoration: none;
+    }
+    
+.logo {
+        font-family: Raleway, sans-serif;
+        font-style: normal;
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 1.19;
+        color: var(--primary-text-color);
+        
+      }
+.logo-accent {
+        color: var(--accent-color);
+      }
+.logo-white {
+        color: var(--primary-white-color);
+      }
+
+.list {
+        list-style: none;
+        }
+ .link {
+  text-decoration: none;
+ }
+ /* site-nav */
+
+.site-nav .link {
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+color: var(--primary-text-color);
+
+ }
+
+ .site-nav .link-current {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--accent-color);
+  
+  }
+   
+  .site-nav .link:hover, .site-nav .link:focus {
+   color: var(--accent-color);
+ } 
+
+ .aush-nav .link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color)
+  text-decoration: none;
+  }
+
+  .aush-nav .link-current {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+   color: var(--accent-color);
+   text-decoration: none;
+   }
+
+   .aush-nav .link:hover, .aush-nav .link:focus {
+    color: var(--accent-color);
+    
+  }
+
+  .hero {
+    background-color: var(--background-secondary-color )
+  }
+
+.hero-title {
+font-style: normal;
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
+color: var(--primary-white-color);
+
+   
+ }
+ 
+ /* feateres */
+
+.feature-list .title {
+  color:var(--primary-text-color); 
+}
+ .title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  color: var(--primary-text-color);
+
+ }
+
+ .title-text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  color: var(--title-texy-color);
+ }
+
+ .section-title {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  color: var(--primary-text-color);
+ }
+
+     
+ /* work */
+
+ .work-list {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  color: var(--primary-text-color);
+ }
+
+ .work-list title {
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: center;
+  letter-spacing: 0.03em;
+ }
+
+ /* button */
+
+ .button {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: var(--primary-white-color);
+  display: flex;
+  text-align: center;
+  background-color: var(--accent-color);
+  text-decoration: none;
+ }
+ 
+ /* основной цвет background-color */
+ #FFFFFF
+ /* вторичный цвет background */
+ #2F303A;
+ /* основной цвет текста */
+ #212121
+ /* вторичный цвет текста */
+ #757575
+ /* цвет фокуса */
+ 
+#2196F3
+
+
+/* styles for portfolio */
+
+
